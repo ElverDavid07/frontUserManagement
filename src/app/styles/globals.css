@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    @apply bg-[#f6f6f6]
+}
+/** Landing page Navbar Component */
+.Navbar{
+    @apply flex justify-between items-center py-5 px-5 sticky top-0
+}
+.Logo{
+    @apply  text-indigo-600 flex items-center gap-x-1 text-xl
+}
+
+/** Form Register New User  */
+
+.Title{
+    @apply py-8 text-2xl uppercase text-center  mb-3 text-indigo-600 tracking-tighter font-extrabold
+}
+.Content{
+    @apply lg:w-[35%] lg:px-5 md:w-[50%] md:px-0 w-full px-5 
+}
+.Form{
+    @apply flex flex-col gap-y-6 relative
+}
